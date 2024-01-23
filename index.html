@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header and navbar -->
+    <nav class="navbar navbar-expand-lg" style="scroll-snap-align: center;">
+        <div class="container-fluid mx-5 my-1">
+            <a class="navbar-brand" href="#">
+                <h2 class="text_lg mb-2"> <span style="color: var(--primary-color);">Sol</span>Stice</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mx-auto mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"> +1 576-546-0698</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header and navbar end -->
+
+
+    <!-- hero section -->
+    <section class="hero" style="position: relative;">
+        <div class="mx-5 ms-5 p-4" style="width: 100%; height: 100%; ">
+            <div style="color: #ffffff;text-align: left;" class="hero_content">
+                <h2 class="text_xl mb-2"> <span style="color: var(--primary-color);">Sol</span>Stice
+                    SOLAR
+                    PANELS
+                </h2>
+                <p class="text_sm my-2 w-75">
+                    Solar panels are perfect if you are looking for a reliable source of additional power and energy for
+                    your home or office.
+                </p>
+            </div>
+
+            <div class="mt-5 d-flex gap-4 ">
+                <button type="button" class="btn btn_xl hero_btn_yellow"
+                    style="background-color: var(--secondary-color);">Free
+                    Consultation</button>
+                <button type="button" class="btn btn_lg" style="background-color: var(--neutral-color);">Our Services
+                </button>
+            </div>
+        </div>
+        <div class="border-top border-bottom border-start border-4 border-success-subtle"
+            style="width: 35%;position: absolute;right: 0%; top: 25%;">
+            <img src="images/herobg-2.png" alt="solar fixing" style="width: 100%; height: 100%;">
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about us section -->
+    <section class="about mt-5" style="" id="about">
+        <div class="container p-4 d-flex" style="width: 100%; height: 100%;">
+            <!-- image left -->
+            <div class="d-flex flex-column justify-content-center w-50 image" style="">
+                <div class="about_img1">
+                    <img src="/images/about1.png" alt="" class="w-75">
+
+                </div>
+                <div class="about_img2 border border-4 border-light w-75"
+                    style="border-color: var(--background-color);">
+                    <img src="/images/about2.png" alt="" class="w-100">
+
+                </div>
+            </div>
+
+            <!-- text right -->
+            <div style="color: var(--font-color);text-align: center;" class="w-50 d-flex flex-column gap-5 content">
+                <h2 class="text_xl mb-2"> <span style="color: var(--primary-color);">
+                        About Sol</span>Stice ?
+
+                </h2>
+                <p class="text_md my-2 " style="text-align: left; color: var(--font-color);">
+                    Our company implements alternative energy sources. Since it was founded, we have completed tasks of
+                    various scales and complexity - from the installation of solar panels, to industrial solar power
+                    plants with individual features of non-standard projects.
+                </p>
+
+                <!-- accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                RELIABLE ENERGY SOURCE
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Solar energy is one of the most reliable energy sources available today. You can also
+                                store extra energy for future consumption.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                ADDITIONAL POWER FOR YOUR NEEDS
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Solar panels are perfect if you are looking for a reliable source of additional power
+                                and energy for your home or office.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                24/7 CUSTOMER SUPPORT
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Our company offers free 24/7 support to all our clients who have any questions or issues
+                                with the products and services of Eco Tech.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- accordion end -->
+                <button type="button" class="btn btn_xl w-25" style="background-color: var(--secondary-color);">
+                    Read more
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- about us section end -->
+
+
+    <!-- why us section  -->
+    <section class="more_about" style="" id="service">
+        <div class="container p-4 d-flex" style="width: 100%; height: 100%;">
+            <!-- text left -->
+            <div style="color: var(--font-color);text-align: left;" class="w-50 d-flex flex-column gap-5 content">
+                <h2 class="text_xl mb-2"> <span style="color: var(--secondary-color);">
+                        What We Offer
+
+                </h2>
+                <p class="text_md my-2 " style="text-align: left; color: var(--font-color);">
+                    Our team of professional engineers and installers will make sure that your purchase will be
+                    installed in accordance with all regulations and taking into account your wishes.
+                </p>
+
+                <p class="text_md my-2 " style="text-align: left; color: var(--font-color);">
+
+                    We provide professional and prompt installation of the system, start-up and adjustment of equipment
+                    and put the object into operation.
+                    We prepare an individual project for you, taking into account the specifics of the location, solar
+                    insolation, with the selection of the necessary equipment for the desired capacity, installation
+                    terms, prices, possible discounts and system payback terms.
+                </p>
+                <p class="text_md my-2 border-start border-2 border-warning p-2 "
+                    style="text-align: left; color: var(--font-color);">
+                    We carry out full warranty and post-warranty service of all our objects!</p>
+            </div>
+            <!-- image right -->
+            <div class="d-flex flex-column w-50 gap-2 ms-5 image" style="">
+                <div class="more_img1 w-100">
+                    <img src="/images/more1.png" alt="" class="zoom w-100">
+
+                </div>
+                <div class="more_img2 w-100">
+                    <img src="/images/more2.png" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why us section end  -->
+
+    <!-- services section -->
+    <section class="services" id="products">
+        <div class="container p-4 d-flex flex-column w-100 h-100">
+            <!-- image top -->
+            <div class="scroll_background d-flex gap-5 justify-content-center align-items-center p-5">
+                <div class="w-50">
+                    <h2 class="text_xl mb-2"> <span style="color: var(--background-color); text-align: left;">
+                            OUR FULL RANGE OF PRODUCTS
+                    </h2>
+                    <p class="text_sm my-2 w-50 " style="text-align: left; color: var(--background-color);">
+                        We also perform design and installation work. We can also carry out project work on equipment
+                        proposed by the customer.
+                    </p>
+                </div>
+                <div class="w-25 d-flex flex-column gap-3">
+                    <button type="button" class="btn btn_sm " style="background-color: var(--secondary-color)">
+                        Service Works
+                    </button>
+                    <button type="button" class="btn btn_lg" style="background-color: var(--font-base);">Our
+                        Energy Audit
+                    </button>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row w-100 gap-4 mx-auto p-5">
+                <div class="">
+                    <img src="/images/product1.png" alt="" class="w-100">
+                    <p
+                        style="transform: translateX(100%) translateY(-100%);background-color: var(--neutral-color);color: #ffffff ;width: 50%;text-align: center;">
+
+                        NeON 2 315W</p>
+                </div>
+                <div class="">
+                    <img src="/images/product2.png" alt="" class="w-100">
+                    <p
+                        style="transform: translateX(100%) translateY(-100%);background-color: var(--neutral-color);color: #ffffff ;width: 50%;text-align: center;">
+                        SolarWorld SW 270 Black
+                    </p>
+                </div>
+                <div class="">
+                    <img src="/images/product3.png" alt="" class="w-100">
+                    <p
+                        style="transform: translateX(100%) translateY(-100%);background-color: var(--neutral-color);color: #ffffff ;width: 50%;text-align: center;">
+
+
+                        EcoGreen 5W,12V Solar Panel
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center">
+                <button type="button" class="btn btn_sm " style="background-color: var(--font-base);width: 20%;">
+                    View All Products
+                </button>
+            </div>
+
+        </div>
+    </section>
+    <!-- services section end -->
+
+
+    <!-- projects section -->
+    <section class="projects" id="projects">
+        <div class="container p-4 d-flex flex-column w-100 h-100">
+            <div class="d-flex flex-column align-items-start justify-content-center w-50 mt-5 ms-5">
+                <h2 class="text_xl mb-2"> <span style="color: var(--background-color); text-align: left;">
+                        Our Best Success
+                        Work Gallery
+                </h2>
+                <p class="text_sm my-2 w-100 " style="text-align: left; color: var(--background-color);">
+                    Solstice has been operating on the market since 2005. During this time we managed to design more
+                    than 500 solar stations. We will carefully analyze your needs and offer the best solution for your
+                    home or business.
+                </p>
+            </div>
+
+            <div class="container text-center  h-100 mt-5">
+                <div class="row gy-3 gx-0">
+                    <div class="col">
+                        <img src="/images/product4.png" alt="solar" class="zoom" style="height: 300px;width: 90%;">
+                    </div>
+                    <div class="col">
+                        <img src="/images/product5.png" alt="solar" class="zoom" style="max-height: 300px;width: 90%;">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <img src="/images/product6.png" alt="solar" class=" zoom" style="height: 300px;min-width: 90%;">
+                    </div>
+                    <div class="col">
+                        <img src="/images/product7.png" alt="solar" class=" zoom" style="max-height: 300px;width: 90%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects section end -->
+
+    <!-- reviews and contact form section  -->
+    <section class="contact mt-5" id="contact">
+        <div class="container p-4 d-flex flex-column align-items-center w-100 h-100">
+            <h2 class="text_xl mb-2"> <span style="text-align: center;">
+                    Solar Energy Is An
+                    Inexhaustible Source
+            </h2>
+            <hr class="w-100  mt-5">
+            <div class="d-flex w-100 h-100 align-items-center justify-content-center mt-4">
+                <div class="w-50">
+                    <h2 class="text_md w-75 mb-2"> <span style="text-align: center;font-weight: 600;">
+                            OUR CUSTOMERS ENJOY THE SUNNY SIDE
+                            OF THEIR ENERGY CONSUMPTION BILLS.
+                    </h2>
+                    <div id="carouselExampleCaptions" class="carousel slide mt-5">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"
+                                style="background-color: var(--background-color);"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2" style="background-color: var(--background-color);"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3" style="background-color: var(--background-color);"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active w-100 "
+                                style="background-color: var(--font-color);height: 300px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>MARKUS BREITBART</h5>
+                                    <h6>Freelance Photographer</h6>
+                                    <p style="color: rgb(174, 173, 173);">I have a pretty big house that consumes a
+                                        sizable amount of
+                                        energy each month.
+                                        With the help of these solar panels, I’ve been able to make great cuts to my
+                                        monthly bills!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item active w-100 "
+                                style="background-color: var(--font-color);height: 300px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>JANE NICHOLSON</h5>
+                                    <h6>Web Designer</h6>
+                                    <p style="color: rgb(174, 173, 173);">
+                                        Everyone I dealt with at the Eco Tech company, from a salesperson and office
+                                        staff to the installation crew has been incredibly helpful and enthusiastic.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item active w-100 "
+                                style="background-color: var(--font-color);height: 300px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>THOMAS JOHNSON</h5>
+                                    <h6>CEO at BigInfoDev</h6>
+                                    <p style="color: rgb(174, 173, 173);">Installing a solar panel atop of our office
+                                        building was a great decision! We’ve managed to cover all our office needs
+                                        (which houses 50 computers).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="vr mx-3"></div>
+                <div class="w-50 form_div">
+                    <div class="mb-3 w-75">
+                        <input type="text" class="form-control border-bottom" id="exampleFormControlInput1"
+                            placeholder="Enter your name">
+                    </div>
+
+                    <div class="mb-3 w-75">
+                        <input type="email" class="form-control " id="exampleFormControlInput1"
+                            placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3 w-75">
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-3 w-75">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                            placeholder="Enter Your Message"></textarea>
+                    </div>
+                    <div class="w-75">
+                        <button type="button" class="btn btn_sm"
+                            style="background-color: var(--background-color);width: 20%;color: var(--font-color);">
+                            Get A Quote
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- reviews and contact form section end -->
+
+
+        <!-- footer section  -->
+        <!-- Footer -->
+        <footer class="mt-5">
+            <div class="footer-top mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 footer-about wow fadeInUp">
+                            <p>
+                                Our team of professional engineers and installers will make sure that your purchase will
+                                be installed in accordance with all regulations and taking into account your wishes.
+                            </p>
+                            <p><a href="#">Our Team</a></p>
+                        </div>
+
+                        <div class="col-md-4 footer-links">
+                            <div class="row">
+                                <div class="col">
+                                    <h3>Content</h3>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p><a class="scroll-link" href="#top-content">Home</a></p>
+                                    <p><a href="#">Features</a></p>
+                                    <p><a href="#">How it works</a></p>
+                                    <p><a href="#">Our clients</a></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p><a href="#">Plans &amp; pricing</a></p>
+                                    <p><a href="#">Affiliates</a></p>
+                                    <p><a href="#">Terms</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 offset-md-1 footer-contact  ">
+                            <h3>Contact</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
+                            <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>
+                            <p><i class="fas fa-envelope"></i> Email: <a
+                                    href="mailto:hello@domain.com">johndoe@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 footer-copyright">
+                            &copy; All rights reserved 2024
+                        </div>
+                        <div class="col-md-6 footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+</body>
+
+</html>

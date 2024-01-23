@@ -1,0 +1,351 @@
+:root {
+  --primary-color: #00ac82;
+  --secondary-color: #d1a100;
+  --accent-color: #00beff;
+  --neutral-color: #16140f;
+  --background-color: #f6f6f8;
+  --font-color: #16140f;
+  --font-base: #142b29;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: both mandatory;
+}
+
+body {
+  width: 100%;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/herobg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: center;
+}
+
+.hero_content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  text-align: left;
+}
+
+.hero .solstice {
+  background-color: var(--primary-color);
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: screen;
+}
+
+.about {
+  scroll-snap-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.more_about {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: center;
+}
+
+.services {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: center;
+}
+
+.projects {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: center;
+  background-color: var(--font-base);
+}
+
+.contact {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: center;
+}
+
+footer {
+  background-color: var(--font-color);
+  color: var(--background-color);
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.about_img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.about_img2 {
+  width: 100%;
+  height: 100%;
+  transform: translateX(19%) translateY(-30%);
+}
+
+.text_xl {
+  font-size: 2.90044rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+}
+
+.text_lg {
+  font-size: 1.84788rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.text_md {
+  font-size: 1.27075rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.03rem;
+}
+
+.text_sm {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.btn_xl {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 0;
+  /* background-color: var(--secondary-color); */
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--background-color);
+  text-transform: uppercase;
+}
+
+.btn_lg {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 0;
+  /* background-color: var(--secondary-color); */
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.btn_sm {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0;
+  /* background-color: var(--secondary-color); */
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.btn_lg:hover,
+.btn_sm:hover {
+  color: white;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+.hero_btn_yellow {
+  background-size: 100% 100%;
+  background-image: linear-gradient(
+    90deg,
+    var(--secondary-color) 0%,
+    var(--secondary-color) 50%,
+    var(--neutral-color) 100%
+  );
+}
+
+.hero_btn_yellow:hover {
+  background-size: 200% 100%;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.accordion button {
+  background-color: transparent;
+}
+
+.accordion button:focus {
+  background-color: var(--font-base);
+  border-color: transparent;
+  box-shadow: none;
+  color: white;
+  outline: none;
+}
+
+.accordion button:active {
+  background-color: var(--font-base);
+  color: white;
+  outline: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: var(--font-base);
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0
+    var(--font-base);
+}
+
+.scroll_background {
+  width: 100vw !important;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  /* margin: auto -150px; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/services1.png");
+  min-height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.01
+  ); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.form_div {
+  background-color: var(--font-base);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.contact input::placeholder,
+.contact textarea::placeholder {
+  color: #ffffff; /* Change this to your desired color */
+}
+
+.contact input,
+.contact textarea {
+  border: none; /* Remove all borders */
+  border-bottom: 1px solid #ffffff; /* Set bottom border */
+  background-color: var(--font-base);
+  border-radius: 0;
+  color: #ffffff; /* Set the font color */
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  color: #ffffff; /* Set the font color */
+  outline: none;
+  border: none; /* Remove all borders */
+  background-color: var(--font-base);
+  border-bottom: 2px solid #ffffff; /* Add a bottom border on focus */
+}
+
+@media screen and (max-width: 960px) {
+  /* Your styles here */
+  .about_img2 {
+    transform: translateX(19%) translateY(-70%);
+  }
+
+  .about button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  /* Your styles here */
+  .about .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about .container .image {
+    width: 100% !important;
+  }
+
+  .about .container .content {
+    width: 100% !important;
+  }
+
+  .about_img2 {
+    transform: translateX(19%) translateY(-30%);
+  }
+
+  .about button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .more_about .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .more_about .container .image {
+    width: 100% !important;
+  }
+
+  .more_about .container .content {
+    width: 100% !important;
+  }
+
+  .projects .container .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
